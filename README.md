@@ -19,7 +19,32 @@ The main dataset used in this project is "Data Sale.csv," which is an open-sourc
       2. Data munching
 - SQL Server ( Utilized for querying and data analysis)  
 - Power BI (Used for building interactive reports ) 
-- Microsoft PowerPoint (Used for presenting project findings)  
+- Microsoft PowerPoint (Used for presenting project findings)
+
+ ### Data cleaning and Preparation
+During the initial phase of data preparation, the following steps are carried out:  
+1. Loading and inspecting the dataset  
+2. Identifying and addressing missing values  
+3. Cleaning and formatting the data for analysis  
+
+### Exploratory Data Analysis  
+EDA involved examining the dataset to answer key questions such as:  
+- What is the overall sales trend?  
+- Which products are the top sellers?  
+- Which products recorded peak sales?
+
+### Data Analysis  
+This section includes basic code snippets, SQL queries, or DAX expressions used during the analysis process.
+
+ ``` SQL
+alter table employee
+add state_of_ origin varchar(100)
+select a,b,c
+where a>= 45
+```
+
+
+
 
 
 
